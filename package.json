@@ -1,0 +1,30 @@
+{
+  "name": "productpoker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
+  },
+  "dependencies": {
+    "@clerk/clerk-js": "^5.26.4",
+    "axios": "^1.6.2",
+    "chart.js": "^3.9.1",
+    "jwt-decode": "^3.1.2",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.35.0",
+    "vue": "^3.4.38",
+    "vue-router": "^4.2.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.3",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "sass": "^1.69.5",
+    "vite": "^5.4.2"
+  }
+}
